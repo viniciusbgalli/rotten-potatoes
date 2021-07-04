@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: movies
-          image: viniciusgalli/kubedev-potatoes:v1
+          image: viniciusgalli/kubedev-potatoes
           ports:
             - containerPort: 5000
           env:
